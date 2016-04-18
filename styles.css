@@ -96,7 +96,7 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 400px;
   text-align: left;
   background: #79644e;
   border-bottom: 4px solid #ccc;
@@ -105,6 +105,10 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
+}
+
+.card h2 {
+  text-align: center;
 }
 
 ul.skills {
@@ -123,6 +127,22 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #222;
+}
+
+.picture-list {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+}
+
+li .pictures {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #222;
+  position: center;
+  margin-bottom: 10px;
 }
 
 footer {
