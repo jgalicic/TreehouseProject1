@@ -74,9 +74,14 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid #222;
   transition: all .5s;
+
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
+}
+
+header .profile-image:active {
+  opacity: 0;
 }
 .tag {
   background-color: #222;
